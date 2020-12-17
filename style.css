@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+section header ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+section header ul li a img {
+    background-size: 35px 35px;
+    border: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    position: relative;
+    height: 34px;
+    width: 34px;
+    z-index: 0;
+}
+
+section .main {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main .searchBox {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+section .main .searchBox .search {
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+section .main .searchBox .icons {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+section .main .button {
+    margin-top: 20px;
+}
+
+section .main .button .button1 {
+    height: 50px;
+    width: auto;
+    color: gray;
+    font-size: 15px;
+    background: rgb(230, 230, 230);
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    margin: 6px;
+}
+
+section .main .button .button2 {
+    height: 50px;
+    width: auto;
+    color: gray;
+    font-size: 15px;
+    background: rgb(230, 230, 230);
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    margin: 6px;
+}
+
+section .main .button .button1:hover,
+.button2:hover {
+    color: darkgray;
+    background: whitesmoke;
+    border: 5px solid lightgray;
+}
+
+section .main .languages {
+    display: flex;
+    margin-top: 20px;
+}
+
+section .main .languages li {
+    list-style: none;
+    margin: 0 5px;
+    font-size: 14px;
+    color: black;
+}
+
+section .main .languages li a {
+    text-decoration: none;
+    color: purple;
+}
+
+section .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: gray;
+}
+
+section .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(226, 226, 226);
+}
+
+section .footer .row {
+    padding: 15px 25px;
+    border-top: 5px solid lightgray;
+    color: gray;
+}
+
+section .footer .row.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .footer .row.row2 ul {
+    display: flex;
+}
+
+section .footer .row.row2 ul li {
+    list-style: none;
+}
+
+section .footer .row.row2 ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+    margin-right: 26px;
+}
+
+section .footer .row.row2 ul:nth-child(2) li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+    margin-right: 0px;
+    margin-left: 26px;
+}
